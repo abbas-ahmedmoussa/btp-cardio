@@ -1,0 +1,8 @@
+mkdir test0
+touch test1
+ln -s test1 test2
+chmod 500 test0
+chmod 714 test1
+touch -t 01012047 test0
+touch -t 01012146 test1
+touch -t 01012220 test2
